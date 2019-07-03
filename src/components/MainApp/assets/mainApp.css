@@ -1,0 +1,13 @@
+.main-app {
+  display: grid;
+  grid-template-areas: "header header header"
+                       "body body ."
+                       "footer footer footer";
+  grid-template-rows: 40px 100% 200px;
+  grid-template-columns: 20% 70% 10%;
+  background-color: #333333;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  color: #ffffff;
+}

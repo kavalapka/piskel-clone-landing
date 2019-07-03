@@ -1,0 +1,22 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  background-color: #ffd700;
+  margin: 0;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 192px;
+}
+
+.header__start {
+  background-color: gold;
+  color: #3d3d3d;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 5px 20px;
+}
